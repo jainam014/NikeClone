@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Poppins:wght@300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #d0d4d5;
+    position: relative;
+}
+
+#nav{
+    height: 90px;
+    padding: 0 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav img{
+    height: 35px;
+    margin-right: 170px;
+    margin-left: 10px;
+}
+
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav-part1 h4{
+    margin-right: 60px;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#nav-part2 i{
+    margin-right: 20px;
+    font-size: 21px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+#content{
+    width: 100%;
+    height: calc(100% - 90px);
+    position: relative;
+    display: flex;
+}
+
+#left{
+    width: 40%;
+    height: 100%;
+    padding: 70px 150px;
+}
+
+#left h5{
+    font-size: 20px;
+    color: #535353;
+}
+
+#left h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    line-height: 45px;
+    margin: 20px 0;
+}
+
+#left p{
+    font-size: 10px;
+    color: #535353;
+    margin: 20px 0;
+    width: 95%;
+}
+
+#left button{
+    background-color: #000;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 15px 35px;
+    font-size: 17px;
+    border-radius: 40px;
+    border-top-left-radius: 0px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#right{
+    height: 100%;
+    width: 60%;
+    /* background-color: red; */
+    position: relative;
+    padding: 100px;
+    white-space: nowrap;
+    overflow-x: auto;
+}
+
+#right::-webkit-scrollbar{
+    display: none;
+}
+
+.elem{
+    height: 350px;
+    width: 270px;
+    background-color: #f6f6f6;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.elem2{
+    height: 350px;
+    width: 270px;
+    background-color: #F6F6F6;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.elem3{
+    height: 350px;
+    width: 270px;
+    background-color: #FFFFFF;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.elem4{
+    height: 350px;
+    width: 270px;
+    background-color: #F6F6F6;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+
+.elem img{
+    height: 50%;
+    width: 100%;
+    top: 22%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.elem2 img{
+    height: 60%;
+    width: 100%;
+    top: 15%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.elem3 img{
+    height: 60%;
+    width: 100%;
+    top: 15%;
+    object-fit: cover;
+    position: absolute;
+}
+
+.elem4 img{
+    height: 60%;
+    width: 100%;
+    top: 15%;
+    object-fit: cover;
+    position: absolute;
+}
+
+
+.elem h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #F6F6F6;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 10px;
+}
+
+.elem2 h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #F6F6F6;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 10px;
+}
+
+.elem3 h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #F6F6F6;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 10px;
+}
+
+.elem4 h4{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #F6F6F6;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 10px;
+}
+
+.elem h5{
+    position: absolute;
+    bottom: 7.5%;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 9px;
+    font-weight: 100;
+}
+
+.elem2 h5{
+    position: absolute;
+    bottom: 7.5%;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 9px;
+    font-weight: 100;
+}
+
+.elem3 h5{
+    position: absolute;
+    bottom: 7.5%;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 9px;
+    font-weight: 100;
+}
+
+.elem4 h5{
+    position: absolute;
+    bottom: 7.5%;
+    right: 0;
+    background-color: #000;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 6px;
+    font-size: 9px;
+    font-weight: 100;
+}
